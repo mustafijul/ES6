@@ -1,3 +1,4 @@
+//*Nested object
 const student = {
   name: "John",
   age: 25,
@@ -8,9 +9,11 @@ const student = {
   phone: "01700000000",
 };
 
-//* destructuring object
+//* destructuring object, also rename the age property as boyos
 
-const { name, age, address, phone } = student;
+const { name, age: boyos, address, phone } = student;
+console.log(boyos);
+
 const { city } = address;
 console.log(city);
 
