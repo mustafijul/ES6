@@ -1,5 +1,6 @@
-const cars = ["toyota", "bmw", "lamborghene"];
-// console.log(cars[0]);
-for (const car of cars) {
-  console.log(car);
-}
+const students = ["tamim", "mahin", "nayon"];
+
+const students2 = students.push("nasim");
+const students3 = students.pop();
+
+console.log(students);
